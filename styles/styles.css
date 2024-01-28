@@ -1,0 +1,192 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex: initial;
+  flex-wrap: nowrap;
+  padding: 0.7rem 0.7rem 0.7rem 0;
+  align-items: center;
+}
+
+header .menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+header .menu .menu-icon {
+  width: 80px;
+  align-items: center;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+}
+
+header .search {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+header .header-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.7rem;
+}
+
+header .header-buttons .perfil{
+  border-radius: 50%;
+}
+
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: initial;
+  padding-left: 4rem;
+  gap: 1rem;
+}
+
+main iframe {
+  width: auto;
+  height: 41.4375rem;
+}
+
+main .video-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main .video-title {
+  display: flex;
+  flex-direction: row;
+}
+
+main .channel-infos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+}
+
+main .channel-infos-static {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+main .channel-infos-static img {
+  width: 42px;
+  height: 42px;
+}
+
+.main .channel-infos-static-text {
+  display: flex;
+  flex-direction: column;
+}
+
+main .channel-infos-buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+main .channel-infos-buttons .inscreva-se {
+  background-color: #CC0000;
+  color: #ffffff;
+  width: 159px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+
+main .channel-infos-buttons .like {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  align-items: center;
+  gap: 0.5rem;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+}
+
+main .channel-infos-buttons .unlike {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  align-items: center;
+  gap: 0.5rem;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+}
+
+main .channel-infos-buttons .share {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  align-items: center;
+  gap: 0.5rem;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+}
+
+main .channel-infos-buttons .download {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  align-items: center;
+  gap: 0.5rem;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+}
+
+main .text-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 400;
+  margin-right: 20rem;
+}
+
+main .text-infos p {
+  text-align: left;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0.5rem;
+  gap: 1rem;
+}
+
+aside .suggestion {
+  display: flex;
+  flex-direction: row;
+  flex: initial;
+  gap: 0.5rem;
+  width: 30rem;
+  height: 7.2rem;
+}
+
+aside .suggestion .video{
+  height: auto;
+  width: auto;
+}
+
+aside .suggestion .suggestion-text {
+  display: flex;
+}
+
+aside .suggestion .suggestion-text h2{
+  font-weight: 400;
+  font-style: normal;
+}
